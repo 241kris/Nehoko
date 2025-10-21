@@ -1,13 +1,13 @@
 "use client";
 
-import { QueryClient } from '@tanstack/react-query';
+ 
 import { Geist, Geist_Mono } from "next/font/google";
-import { ToastContainer } from 'react-toastify';
+ 
 import "./globals.css";
 import Providers from './providers';
  
 
-const queryClient = new QueryClient();
+ 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
